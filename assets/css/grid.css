@@ -1,0 +1,31 @@
+#peliculas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+article {
+    background: #161b22;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+article:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 📌 Responsividad */
+@media (max-width: 768px) {
+    #peliculas {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

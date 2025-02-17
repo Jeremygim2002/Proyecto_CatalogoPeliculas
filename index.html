@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Películas</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+        <header>
+            <div>
+                <button id="atras"><<</button>
+                <h1>Catálogo de Películas</h1> 
+                <button id="siguiente">>></button>
+            </div>
+            <p class="pagina-actual">Página: <span>1</span></p>
+        </header>
+
+        <div id="opciones">
+            <select id="categoria">
+                <option value="popular">Las más populares</option>
+                <option value="top_rated">Las más ranqueadas</option>
+                <option value="upcoming">Las que están en camino</option>
+            </select> 
+            <div id="busqueda">
+                <input type="text" id="txt_nombre" placeholder="Buscar película...">
+                <button id="buscar">🔍</button>
+            </div>
+        </div>
+
+        <section id="peliculas"></section>
+    </div> 
+
+    <!-- Scripts -->
+    <script src="assets/js/fetchMovies.js"></script>
+    <script src="assets/js/pagination.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

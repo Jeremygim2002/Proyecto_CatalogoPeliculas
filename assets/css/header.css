@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}

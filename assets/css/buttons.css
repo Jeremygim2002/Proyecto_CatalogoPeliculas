@@ -1,0 +1,55 @@
+button {
+    background: linear-gradient(45deg, #1f6feb, #58a6ff);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #316dca;
+}
+
+/* 📌 Opciones de búsqueda */
+#opciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#categoria {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #161b22;
+    color: #c9d1d9;
+    border: 1px solid #58a6ff;
+}
+
+#busqueda {
+    display: flex;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+#txt_nombre {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    font-size: 1rem;
+    border: 1px solid #58a6ff;
+}
+
+#buscar {
+    border-radius: 0 8px 8px 0;
+    font-size: 1.2rem;
+    background: #1f6feb;
+    color: white;
+}
