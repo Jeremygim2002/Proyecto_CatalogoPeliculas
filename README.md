@@ -15,11 +15,6 @@
 
 - **Paginación**: Navega entre páginas de resultados usando botones de "anterior" y "siguiente".
 
-- **Visualización de películas**:  
-  - Título  
-  - Imagen destacada (backdrop)  
-  - Fecha de estreno  
-
 ---
 
 ## ⚙️ Tecnologías utilizadas
