@@ -23,7 +23,6 @@
 - **JavaScript** (Vanilla JS)  
 - **API**: [The Movie Database (TMDb)](https://www.themoviedb.org/)  
 - **Fuentes**: Google Fonts (Roboto y Raleway)  
-- **Fetch API** para obtener datos dinámicos de películas  
 
 ---
 
