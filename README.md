@@ -30,8 +30,10 @@
 ## 🖥️ Cómo usarlo
 
 1. Clonar el repositorio
+   
    git clone https://github.com/Jeremygim2002/Proyecto_CatalogoPeliculas.git
-2. Abrir el archivo `index.html` en cualquier navegador moderno.  
+   
+3. Abrir el archivo `index.html` en cualquier navegador moderno.  
  
 
 
