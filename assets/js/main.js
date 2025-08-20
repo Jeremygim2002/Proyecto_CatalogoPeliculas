@@ -1,18 +1,18 @@
-let page = 1; // Definir la variable globalmente
+let page = 1; 
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Cargar películas al inicio
+
     catalogo();
     
-    // Manejar el cambio de categoría
+
     document.querySelector('#categoria').addEventListener('change', () => {
-        page = 1; // Reiniciar a la primera página al cambiar la categoría
+        page = 1;
         catalogo();
     });
     
-    // Manejar la búsqueda
+
     document.querySelector('#buscar').addEventListener('click', () => {
-        page = 1; // Reiniciar a la primera página al realizar una búsqueda
+        page = 1; 
         catalogo();
     });
 });
